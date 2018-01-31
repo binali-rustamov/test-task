@@ -1,0 +1,24 @@
+<button routerLink="/create">+</button>
+<table>
+  <thead>
+    <tr>
+      <td>Id</td>
+      <td>Title</td>
+      <td>Text</td>
+      <td>Priority</td>
+      <td>Completed</td>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let item of taskList">
+      <td><a routerLink="/detail/{{item.id}}">{{item.id}}</a></td>
+      <td>{{item.title}}</td>
+      <td>{{item.text}}</td>
+      <td>{{item.priority}}</td>
+      <td>{{item.completed}}</td>
+      <td><button routerLink="/edit/{{item.id}}">edit</button></td>
+      <td><button routerLink="/delete/{{item.id}}">delete</button></td>
+    </tr>
+  </tbody>
+</table>

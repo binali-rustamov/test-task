@@ -1,0 +1,22 @@
+[2018-01-31 20:06:05.646] [exthost1] [info] extension host started
+[2018-01-31 20:06:05.653] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-01-31 20:06:05.653] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/out/extension
+[2018-01-31 20:06:05.693] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-01-31 20:06:05.693] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/out/main
+[2018-01-31 20:06:05.743] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-01-31 20:06:05.743] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-01-31 20:06:05.760] [exthost1] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2018-01-31 20:06:05.760] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/extension-editing/out/extension
+[2018-01-31 20:06:05.767] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2018-01-31 20:06:05.767] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript/out/extension
+[2018-01-31 20:06:05.990] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.csharp {"startup":true,"activationEvent":"workspaceContains:*.csproj,*.sln,*.csx,*.cake,**/*.csproj,**/*.sln,**/*.csx,**/*.cake"}
+[2018-01-31 20:06:05.990] [exthost1] [info] ExtensionService#loadCommonJSModule /home/uzarra/.vscode/extensions/ms-vscode.csharp-1.13.1/out/src/main
+[2018-01-31 20:06:06.094] [exthost1] [info] eager extensions activated
+[2018-01-31 20:06:07.493] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-01-31 20:06:07.493] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-01-31 20:06:07.500] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-01-31 20:06:07.500] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json/client/out/jsonMain
+[2018-01-31 20:11:58.589] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-01-31 20:11:58.589] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html/client/out/htmlMain
+[2018-01-31 21:24:22.072] [exthost1] [info] ExtensionService#_doActivateExtension vscode.javascript {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2018-01-31 21:24:22.072] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/javascript/out/javascriptMain

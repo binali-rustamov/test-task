@@ -1,0 +1,16 @@
+<button (click)="goBack()">Go back</button>
+<p>
+  <label>title:</label> <input type="text" [(ngModel)]="title">
+</p>
+<p>
+    <label>text:</label> <input type="text" [(ngModel)]="text">
+</p>
+<p>
+    <label>priority:</label> 
+    <select [(ngModel)]="priority">
+      <option *ngFor="let level of levels" [value]="level">{{level}}</option>
+    </select>
+</p>
+<p>
+  <button (click)="createTask()">Create</button>
+</p>
